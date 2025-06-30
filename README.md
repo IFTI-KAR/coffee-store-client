@@ -1,8 +1,10 @@
 ## ☕ Coffee Store
 
 **Live Site:** [https://admirable-queijadas-41b617.netlify.app](https://admirable-queijadas-41b617.netlify.app)
+
 **Server Repo:** [https://github.com/IFTI-KAR/coffee-store-server](https://github.com/IFTI-KAR/coffee-store-server)
-**Client Repo:** *Add your frontend repo link here*
+
+**Client Repo:** *[Add your frontend repo link here](https://github.com/IFTI-KAR/coffee-store-client)*
 
 ---
 
