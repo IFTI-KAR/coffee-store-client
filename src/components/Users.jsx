@@ -27,7 +27,7 @@ const Users = () => {
       confirmButtonText: 'Yes, delete it!',
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:3000/users/${id}`, {
+        fetch(`https://coffee-store-server-three-weld.vercel.app/users/${id}`, {
           method: 'DELETE',
         })
           .then((res) => res.json())
@@ -54,7 +54,7 @@ const Users = () => {
       photo: form.photo.value,
     };
 
-    fetch(`http://localhost:3000/users/${selectedUser._id}`, {
+    fetch(`https://coffee-store-server-three-weld.vercel.app/users/${selectedUser._id}`, {
       method: 'PUT',
       headers: {
         'content-type': 'application/json',
